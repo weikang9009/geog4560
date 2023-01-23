@@ -1,13 +1,9 @@
 # Run `conda-env create -f environment.yml`
 name: pythoncourse
-channels:
-  - conda-forge
-  - bokeh
 
 dependencies:
   - python=3.9
   - pip
-  - bokeh
   - cartopy
   - dask
   - descartes
